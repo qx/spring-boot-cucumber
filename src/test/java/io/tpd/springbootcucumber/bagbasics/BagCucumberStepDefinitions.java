@@ -1,5 +1,7 @@
 package io.tpd.springbootcucumber.bagbasics;
 
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import io.tpd.springbootcucumber.bagcommons.BagHttpClient;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

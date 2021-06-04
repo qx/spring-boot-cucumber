@@ -5,18 +5,12 @@ import io.cucumber.java8.En
 import io.cucumber.java8.Scenario
 import org.junit.jupiter.api.Assertions
 
-//import io.cucumber.java8.En
-//import io.cucumber.java8.Scenario
-//import majiang_algorithm.HuUtil
-//import org.junit.jupiter.api.Assertions
-
-//var lastInstance: SarStepdefs? = null
 var lastInstance: SarStepdefs? = null
+
 open class BasicStepdefs : En {
     //
     protected fun initData() {
     }
-//
 //    protected fun string2PokerNames(arg0: String): MutableList<String> = arg0.split(",") as MutableList<String>
 //    fun string2SeatIndex(arg0: String): Int {
 //        return arg0.split(",").get(1).toInt()
@@ -25,8 +19,7 @@ open class BasicStepdefs : En {
 
 //
 class SarStepdefs : BasicStepdefs() {
-    //    private lateinit var seat: NnSeat
-//
+    //    private lateinit var seat: SarSeat
     init {
         DataTableType { entry: Map<String, Any?> ->
             var ma = entry["ma"]
@@ -51,19 +44,21 @@ class SarStepdefs : BasicStepdefs() {
             }
 //
             SarScore(
-//                entry["fan"] as String?,
-//                (entry["ma"] as String).toInt(),
-//                (entry["base"] as String).toInt(),
-//                (entry["win"] as String).toInt(),
-//                (entry["players"] as String).toInt(),
-//                (entry["lian_gang"] as String).toInt(),
+                entry["param1"] as String,
+                (entry["param2"] as String).toInt(),
+                (entry["param3"] as String).toInt(),
+                (entry["param4"] as String).toInt(),
+                (entry["param5"] as String).toInt(),
+                (entry["result"] as String).toInt(),
+                (entry["winner"] as String).toInt(),
+                (entry["winPoint"] as String).toInt(),
             )
         }
 //
         Before { scenario: Scenario ->
             Assertions.assertNotSame(this, lastInstance)
             lastInstance = this
-//            seat = NnSeat(0, 1)
+//            seat = SarSeat(0, 1)
         }
 //
         BeforeStep { scenario: Scenario ->
@@ -88,21 +83,20 @@ class SarStepdefs : BasicStepdefs() {
 //                val result = NnAlgorithm.check_nn_hu(
 //                    seat, 0, true
 //                )
-                val fanscore = fan?.let {
-//                    NnAlgorithm.fan_string_to_score(
+//                val fanscore = fan?.let {
+////                    NnAlgorithm.fan_string_to_score(
 //                        it,
 //                        majang.ma,
 //                        majang.base,
 //                        majang.players,
 //                        majang.lian_gang
 //                    )
-                }
+//                }
 
 //                Assertions.assertEquals(majang.win, fanscore)
 
             }
         }
-//    }
     }
 }
 
