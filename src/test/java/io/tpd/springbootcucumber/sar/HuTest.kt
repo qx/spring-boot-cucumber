@@ -1,4 +1,4 @@
-package com.mj.lp
+package io.tpd.springbootcucumber.sar
 
 import io.cucumber.junit.Cucumber
 import io.cucumber.junit.CucumberOptions
@@ -6,9 +6,9 @@ import org.junit.runner.RunWith
 
 @RunWith(Cucumber::class)
 @CucumberOptions(
-    features = ["src/test/resources/features/"],
+    features = ["src/test/resources/features/sar"],
     dryRun = false,
-    plugin = ["json:lexor_error_feature.json"],
+    plugin = ["pretty","json:lexor_error_feature.json"],
     glue = [""],
     strict = true
 )

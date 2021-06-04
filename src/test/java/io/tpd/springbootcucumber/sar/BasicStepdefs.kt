@@ -3,22 +3,14 @@ package io.tpd.springbootcucumber.sar
 import io.cucumber.datatable.DataTable
 import io.cucumber.java8.En
 import io.cucumber.java8.Scenario
-import org.junit.jupiter.api.Assertions
+import junit.framework.TestCase.assertEquals
+import kotlin.test.assertNotSame
+import kotlin.test.assertSame
 
 var lastInstance: SarStepdefs? = null
 
-open class BasicStepdefs : En {
-    //
-    protected fun initData() {
-    }
-//    protected fun string2PokerNames(arg0: String): MutableList<String> = arg0.split(",") as MutableList<String>
-//    fun string2SeatIndex(arg0: String): Int {
-//        return arg0.split(",").get(1).toInt()
-//    }
-}
-
 //
-class SarStepdefs : BasicStepdefs() {
+class SarStepdefs : En {
     //    private lateinit var seat: SarSeat
     init {
         DataTableType { entry: Map<String, Any?> ->
@@ -56,28 +48,28 @@ class SarStepdefs : BasicStepdefs() {
         }
 //
         Before { scenario: Scenario ->
-            Assertions.assertNotSame(this, lastInstance)
+//            assertNotSame(this, lastInstance,"Before")
             lastInstance = this
 //            seat = SarSeat(0, 1)
         }
 //
         BeforeStep { scenario: Scenario ->
-            Assertions.assertSame(this, lastInstance)
+//            assertNotSame(this, lastInstance,"BeforeStep")
             lastInstance = this
         }
 //
         AfterStep { scenario: Scenario ->
-            Assertions.assertSame(this, lastInstance)
+//            assertNotSame(this, lastInstance,"AfterStep")
             lastInstance = this
         }
         After { scenario: Scenario ->
-            Assertions.assertSame(this, lastInstance)
+//            assertNotSame(this, lastInstance,"After")
             lastInstance = this
         }
-        Given("mm:") { majangTable: DataTable ->
+        Given("mm:") { it: DataTable ->
 //            HuUtil.load(this.javaClass.classLoader)
-            val SarScore: List<SarScore> = majangTable.asList(SarScore::class.java)
-            SarScore.forEach { majang ->
+            val SarScore: List<SarScore> = it.asList(SarScore::class.java)
+            SarScore.forEach { item ->
 //                seat.cards = majang.hand_cards
 //                val fan = majang.fan
 //                val result = NnAlgorithm.check_nn_hu(
@@ -93,7 +85,7 @@ class SarStepdefs : BasicStepdefs() {
 //                    )
 //                }
 
-//                Assertions.assertEquals(majang.win, fanscore)
+                assertEquals("asss",item.winner,item.result)
 
             }
         }

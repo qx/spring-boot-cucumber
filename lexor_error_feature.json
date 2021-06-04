@@ -1,0 +1,630 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-04T08:04:37.161Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "io.tpd.springbootcucumber.sar.SarStepdefs.\u003cinit\u003e(BasicStepdefs.kt:49)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Putting one thing in the bag",
+        "description": "",
+        "id": "bag-functionalities;putting-one-thing-in-the-bag",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: After. Expected not same as \u003cio.tpd.springbootcucumber.sar.SarStepdefs@2bfb583b\u003e.\n\tat kotlin.test.DefaultAsserter.fail(DefaultAsserter.kt:16)\n\tat kotlin.test.Asserter$DefaultImpls.assertTrue(Assertions.kt:226)\n\tat kotlin.test.DefaultAsserter.assertTrue(DefaultAsserter.kt:11)\n\tat kotlin.test.Asserter$DefaultImpls.assertNotSame(Assertions.kt:272)\n\tat kotlin.test.DefaultAsserter.assertNotSame(DefaultAsserter.kt:11)\n\tat kotlin.test.AssertionsKt__AssertionsKt.assertNotSame(Assertions.kt:72)\n\tat kotlin.test.AssertionsKt.assertNotSame(Unknown Source)\n\tat io.tpd.springbootcucumber.sar.SarStepdefs$5.accept(BasicStepdefs.kt:65)\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "io.tpd.springbootcucumber.sar.SarStepdefs.\u003cinit\u003e(BasicStepdefs.kt:64)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "error_message": "java.lang.AssertionError: BeforeStep. Expected not same as \u003cio.tpd.springbootcucumber.sar.SarStepdefs@2bfb583b\u003e.\n\tat kotlin.test.DefaultAsserter.fail(DefaultAsserter.kt:16)\n\tat kotlin.test.Asserter$DefaultImpls.assertTrue(Assertions.kt:226)\n\tat kotlin.test.DefaultAsserter.assertTrue(DefaultAsserter.kt:11)\n\tat kotlin.test.Asserter$DefaultImpls.assertNotSame(Assertions.kt:272)\n\tat kotlin.test.DefaultAsserter.assertNotSame(DefaultAsserter.kt:11)\n\tat kotlin.test.AssertionsKt__AssertionsKt.assertNotSame(Assertions.kt:72)\n\tat kotlin.test.AssertionsKt.assertNotSame(Unknown Source)\n\tat io.tpd.springbootcucumber.sar.SarStepdefs$3.accept(BasicStepdefs.kt:56)\n",
+                  "status": "failed"
+                },
+                "match": {
+                  "location": "io.tpd.springbootcucumber.sar.SarStepdefs.\u003cinit\u003e(BasicStepdefs.kt:55)"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "the bag is empty",
+            "match": {
+              "location": "io.tpd.springbootcucumber.bagcommons.BagCommonCucumberStepDefinitions.the_bag_is_empty()"
+            },
+            "after": [
+              {
+                "result": {
+                  "error_message": "java.lang.AssertionError: AfterStep. Expected not same as \u003cio.tpd.springbootcucumber.sar.SarStepdefs@2bfb583b\u003e.\n\tat kotlin.test.DefaultAsserter.fail(DefaultAsserter.kt:16)\n\tat kotlin.test.Asserter$DefaultImpls.assertTrue(Assertions.kt:226)\n\tat kotlin.test.DefaultAsserter.assertTrue(DefaultAsserter.kt:11)\n\tat kotlin.test.Asserter$DefaultImpls.assertNotSame(Assertions.kt:272)\n\tat kotlin.test.DefaultAsserter.assertNotSame(DefaultAsserter.kt:11)\n\tat kotlin.test.AssertionsKt__AssertionsKt.assertNotSame(Assertions.kt:72)\n\tat kotlin.test.AssertionsKt.assertNotSame(Unknown Source)\n\tat io.tpd.springbootcucumber.sar.SarStepdefs$4.accept(BasicStepdefs.kt:61)\n",
+                  "status": "failed"
+                },
+                "match": {
+                  "location": "io.tpd.springbootcucumber.sar.SarStepdefs.\u003cinit\u003e(BasicStepdefs.kt:60)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "io.tpd.springbootcucumber.sar.SarStepdefs.\u003cinit\u003e(BasicStepdefs.kt:55)"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I put 1 potato in the bag",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 6
+                },
+                {
+                  "val": "potato",
+                  "offset": 8
+                }
+              ],
+              "location": "io.tpd.springbootcucumber.bagbasics.BagCucumberStepDefinitions.i_put_something_in_the_bag(int,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "io.tpd.springbootcucumber.sar.SarStepdefs.\u003cinit\u003e(BasicStepdefs.kt:60)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "io.tpd.springbootcucumber.sar.SarStepdefs.\u003cinit\u003e(BasicStepdefs.kt:55)"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "the bag should contain only 1 potato",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 28
+                },
+                {
+                  "val": "potato",
+                  "offset": 30
+                }
+              ],
+              "location": "io.tpd.springbootcucumber.bagbasics.BagCucumberStepDefinitions.the_bag_should_contain_only_something(int,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "io.tpd.springbootcucumber.sar.SarStepdefs.\u003cinit\u003e(BasicStepdefs.kt:60)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-04T08:04:37.169Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "io.tpd.springbootcucumber.sar.SarStepdefs.\u003cinit\u003e(BasicStepdefs.kt:49)"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Putting few things in the bag",
+        "description": "",
+        "id": "bag-functionalities;putting-few-things-in-the-bag",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: After. Expected not same as \u003cio.tpd.springbootcucumber.sar.SarStepdefs@6ca8fcf3\u003e.\n\tat kotlin.test.DefaultAsserter.fail(DefaultAsserter.kt:16)\n\tat kotlin.test.Asserter$DefaultImpls.assertTrue(Assertions.kt:226)\n\tat kotlin.test.DefaultAsserter.assertTrue(DefaultAsserter.kt:11)\n\tat kotlin.test.Asserter$DefaultImpls.assertNotSame(Assertions.kt:272)\n\tat kotlin.test.DefaultAsserter.assertNotSame(DefaultAsserter.kt:11)\n\tat kotlin.test.AssertionsKt__AssertionsKt.assertNotSame(Assertions.kt:72)\n\tat kotlin.test.AssertionsKt.assertNotSame(Unknown Source)\n\tat io.tpd.springbootcucumber.sar.SarStepdefs$5.accept(BasicStepdefs.kt:65)\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "io.tpd.springbootcucumber.sar.SarStepdefs.\u003cinit\u003e(BasicStepdefs.kt:64)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "error_message": "java.lang.AssertionError: BeforeStep. Expected not same as \u003cio.tpd.springbootcucumber.sar.SarStepdefs@6ca8fcf3\u003e.\n\tat kotlin.test.DefaultAsserter.fail(DefaultAsserter.kt:16)\n\tat kotlin.test.Asserter$DefaultImpls.assertTrue(Assertions.kt:226)\n\tat kotlin.test.DefaultAsserter.assertTrue(DefaultAsserter.kt:11)\n\tat kotlin.test.Asserter$DefaultImpls.assertNotSame(Assertions.kt:272)\n\tat kotlin.test.DefaultAsserter.assertNotSame(DefaultAsserter.kt:11)\n\tat kotlin.test.AssertionsKt__AssertionsKt.assertNotSame(Assertions.kt:72)\n\tat kotlin.test.AssertionsKt.assertNotSame(Unknown Source)\n\tat io.tpd.springbootcucumber.sar.SarStepdefs$3.accept(BasicStepdefs.kt:56)\n",
+                  "status": "failed"
+                },
+                "match": {
+                  "location": "io.tpd.springbootcucumber.sar.SarStepdefs.\u003cinit\u003e(BasicStepdefs.kt:55)"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "the bag is empty",
+            "match": {
+              "location": "io.tpd.springbootcucumber.bagcommons.BagCommonCucumberStepDefinitions.the_bag_is_empty()"
+            },
+            "after": [
+              {
+                "result": {
+                  "error_message": "java.lang.AssertionError: AfterStep. Expected not same as \u003cio.tpd.springbootcucumber.sar.SarStepdefs@6ca8fcf3\u003e.\n\tat kotlin.test.DefaultAsserter.fail(DefaultAsserter.kt:16)\n\tat kotlin.test.Asserter$DefaultImpls.assertTrue(Assertions.kt:226)\n\tat kotlin.test.DefaultAsserter.assertTrue(DefaultAsserter.kt:11)\n\tat kotlin.test.Asserter$DefaultImpls.assertNotSame(Assertions.kt:272)\n\tat kotlin.test.DefaultAsserter.assertNotSame(DefaultAsserter.kt:11)\n\tat kotlin.test.AssertionsKt__AssertionsKt.assertNotSame(Assertions.kt:72)\n\tat kotlin.test.AssertionsKt.assertNotSame(Unknown Source)\n\tat io.tpd.springbootcucumber.sar.SarStepdefs$4.accept(BasicStepdefs.kt:61)\n",
+                  "status": "failed"
+                },
+                "match": {
+                  "location": "io.tpd.springbootcucumber.sar.SarStepdefs.\u003cinit\u003e(BasicStepdefs.kt:60)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "io.tpd.springbootcucumber.sar.SarStepdefs.\u003cinit\u003e(BasicStepdefs.kt:55)"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "I put 1 potato in the bag",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 6
+                },
+                {
+                  "val": "potato",
+                  "offset": 8
+                }
+              ],
+              "location": "io.tpd.springbootcucumber.bagbasics.BagCucumberStepDefinitions.i_put_something_in_the_bag(int,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "io.tpd.springbootcucumber.sar.SarStepdefs.\u003cinit\u003e(BasicStepdefs.kt:60)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "io.tpd.springbootcucumber.sar.SarStepdefs.\u003cinit\u003e(BasicStepdefs.kt:55)"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "I put 2 cucumber in the bag",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 6
+                },
+                {
+                  "val": "cucumber",
+                  "offset": 8
+                }
+              ],
+              "location": "io.tpd.springbootcucumber.bagbasics.BagCucumberStepDefinitions.i_put_something_in_the_bag(int,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "io.tpd.springbootcucumber.sar.SarStepdefs.\u003cinit\u003e(BasicStepdefs.kt:60)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "io.tpd.springbootcucumber.sar.SarStepdefs.\u003cinit\u003e(BasicStepdefs.kt:55)"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "the bag should contain 1 potato",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 23
+                },
+                {
+                  "val": "potato",
+                  "offset": 25
+                }
+              ],
+              "location": "io.tpd.springbootcucumber.bagbasics.BagCucumberStepDefinitions.the_bag_should_contain_something(int,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "io.tpd.springbootcucumber.sar.SarStepdefs.\u003cinit\u003e(BasicStepdefs.kt:60)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "io.tpd.springbootcucumber.sar.SarStepdefs.\u003cinit\u003e(BasicStepdefs.kt:55)"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "the bag should contain 2 cucumber",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 23
+                },
+                {
+                  "val": "cucumber",
+                  "offset": 25
+                }
+              ],
+              "location": "io.tpd.springbootcucumber.bagbasics.BagCucumberStepDefinitions.the_bag_should_contain_something(int,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "io.tpd.springbootcucumber.sar.SarStepdefs.\u003cinit\u003e(BasicStepdefs.kt:60)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Bag functionalities",
+    "description": "",
+    "id": "bag-functionalities",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/bagbasics/bag.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-04T08:04:37.175Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "io.tpd.springbootcucumber.sar.SarStepdefs.\u003cinit\u003e(BasicStepdefs.kt:49)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Putting one thing in the bag",
+        "description": "",
+        "id": "bag-more-functionalities;putting-one-thing-in-the-bag",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: After. Expected not same as \u003cio.tpd.springbootcucumber.sar.SarStepdefs@1e236278\u003e.\n\tat kotlin.test.DefaultAsserter.fail(DefaultAsserter.kt:16)\n\tat kotlin.test.Asserter$DefaultImpls.assertTrue(Assertions.kt:226)\n\tat kotlin.test.DefaultAsserter.assertTrue(DefaultAsserter.kt:11)\n\tat kotlin.test.Asserter$DefaultImpls.assertNotSame(Assertions.kt:272)\n\tat kotlin.test.DefaultAsserter.assertNotSame(DefaultAsserter.kt:11)\n\tat kotlin.test.AssertionsKt__AssertionsKt.assertNotSame(Assertions.kt:72)\n\tat kotlin.test.AssertionsKt.assertNotSame(Unknown Source)\n\tat io.tpd.springbootcucumber.sar.SarStepdefs$5.accept(BasicStepdefs.kt:65)\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "io.tpd.springbootcucumber.sar.SarStepdefs.\u003cinit\u003e(BasicStepdefs.kt:64)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "error_message": "java.lang.AssertionError: BeforeStep. Expected not same as \u003cio.tpd.springbootcucumber.sar.SarStepdefs@1e236278\u003e.\n\tat kotlin.test.DefaultAsserter.fail(DefaultAsserter.kt:16)\n\tat kotlin.test.Asserter$DefaultImpls.assertTrue(Assertions.kt:226)\n\tat kotlin.test.DefaultAsserter.assertTrue(DefaultAsserter.kt:11)\n\tat kotlin.test.Asserter$DefaultImpls.assertNotSame(Assertions.kt:272)\n\tat kotlin.test.DefaultAsserter.assertNotSame(DefaultAsserter.kt:11)\n\tat kotlin.test.AssertionsKt__AssertionsKt.assertNotSame(Assertions.kt:72)\n\tat kotlin.test.AssertionsKt.assertNotSame(Unknown Source)\n\tat io.tpd.springbootcucumber.sar.SarStepdefs$3.accept(BasicStepdefs.kt:56)\n",
+                  "duration": 1000000,
+                  "status": "failed"
+                },
+                "match": {
+                  "location": "io.tpd.springbootcucumber.sar.SarStepdefs.\u003cinit\u003e(BasicStepdefs.kt:55)"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "the bag is not empty",
+            "match": {
+              "location": "io.tpd.springbootcucumber.bagextra.BagExtraCucumberStepDefinitions.the_bag_is_not_empty()"
+            },
+            "after": [
+              {
+                "result": {
+                  "error_message": "java.lang.AssertionError: AfterStep. Expected not same as \u003cio.tpd.springbootcucumber.sar.SarStepdefs@1e236278\u003e.\n\tat kotlin.test.DefaultAsserter.fail(DefaultAsserter.kt:16)\n\tat kotlin.test.Asserter$DefaultImpls.assertTrue(Assertions.kt:226)\n\tat kotlin.test.DefaultAsserter.assertTrue(DefaultAsserter.kt:11)\n\tat kotlin.test.Asserter$DefaultImpls.assertNotSame(Assertions.kt:272)\n\tat kotlin.test.DefaultAsserter.assertNotSame(DefaultAsserter.kt:11)\n\tat kotlin.test.AssertionsKt__AssertionsKt.assertNotSame(Assertions.kt:72)\n\tat kotlin.test.AssertionsKt.assertNotSame(Unknown Source)\n\tat io.tpd.springbootcucumber.sar.SarStepdefs$4.accept(BasicStepdefs.kt:61)\n",
+                  "status": "failed"
+                },
+                "match": {
+                  "location": "io.tpd.springbootcucumber.sar.SarStepdefs.\u003cinit\u003e(BasicStepdefs.kt:60)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "io.tpd.springbootcucumber.sar.SarStepdefs.\u003cinit\u003e(BasicStepdefs.kt:55)"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I empty the bag",
+            "match": {
+              "location": "io.tpd.springbootcucumber.bagextra.BagExtraCucumberStepDefinitions.empty_the_bag()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "io.tpd.springbootcucumber.sar.SarStepdefs.\u003cinit\u003e(BasicStepdefs.kt:60)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "io.tpd.springbootcucumber.sar.SarStepdefs.\u003cinit\u003e(BasicStepdefs.kt:55)"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "the bag is empty",
+            "match": {
+              "location": "io.tpd.springbootcucumber.bagcommons.BagCommonCucumberStepDefinitions.the_bag_is_empty()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "io.tpd.springbootcucumber.sar.SarStepdefs.\u003cinit\u003e(BasicStepdefs.kt:60)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Bag more functionalities",
+    "description": "",
+    "id": "bag-more-functionalities",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/bagextra/bag-more.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-04T08:04:37.181Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "io.tpd.springbootcucumber.sar.SarStepdefs.\u003cinit\u003e(BasicStepdefs.kt:49)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "胜负判定",
+        "description": "",
+        "id": "scoreresult;胜负判定",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: After. Expected not same as \u003cio.tpd.springbootcucumber.sar.SarStepdefs@6dc9da2d\u003e.\n\tat kotlin.test.DefaultAsserter.fail(DefaultAsserter.kt:16)\n\tat kotlin.test.Asserter$DefaultImpls.assertTrue(Assertions.kt:226)\n\tat kotlin.test.DefaultAsserter.assertTrue(DefaultAsserter.kt:11)\n\tat kotlin.test.Asserter$DefaultImpls.assertNotSame(Assertions.kt:272)\n\tat kotlin.test.DefaultAsserter.assertNotSame(DefaultAsserter.kt:11)\n\tat kotlin.test.AssertionsKt__AssertionsKt.assertNotSame(Assertions.kt:72)\n\tat kotlin.test.AssertionsKt.assertNotSame(Unknown Source)\n\tat io.tpd.springbootcucumber.sar.SarStepdefs$5.accept(BasicStepdefs.kt:65)\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "io.tpd.springbootcucumber.sar.SarStepdefs.\u003cinit\u003e(BasicStepdefs.kt:64)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "error_message": "java.lang.AssertionError: BeforeStep. Expected not same as \u003cio.tpd.springbootcucumber.sar.SarStepdefs@6dc9da2d\u003e.\n\tat kotlin.test.DefaultAsserter.fail(DefaultAsserter.kt:16)\n\tat kotlin.test.Asserter$DefaultImpls.assertTrue(Assertions.kt:226)\n\tat kotlin.test.DefaultAsserter.assertTrue(DefaultAsserter.kt:11)\n\tat kotlin.test.Asserter$DefaultImpls.assertNotSame(Assertions.kt:272)\n\tat kotlin.test.DefaultAsserter.assertNotSame(DefaultAsserter.kt:11)\n\tat kotlin.test.AssertionsKt__AssertionsKt.assertNotSame(Assertions.kt:72)\n\tat kotlin.test.AssertionsKt.assertNotSame(Unknown Source)\n\tat io.tpd.springbootcucumber.sar.SarStepdefs$3.accept(BasicStepdefs.kt:56)\n",
+                  "status": "failed"
+                },
+                "match": {
+                  "location": "io.tpd.springbootcucumber.sar.SarStepdefs.\u003cinit\u003e(BasicStepdefs.kt:55)"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "mm:",
+            "match": {
+              "location": "io.tpd.springbootcucumber.sar.SarStepdefs.\u003cinit\u003e(BasicStepdefs.kt:68)"
+            },
+            "after": [
+              {
+                "result": {
+                  "error_message": "java.lang.AssertionError: AfterStep. Expected not same as \u003cio.tpd.springbootcucumber.sar.SarStepdefs@6dc9da2d\u003e.\n\tat kotlin.test.DefaultAsserter.fail(DefaultAsserter.kt:16)\n\tat kotlin.test.Asserter$DefaultImpls.assertTrue(Assertions.kt:226)\n\tat kotlin.test.DefaultAsserter.assertTrue(DefaultAsserter.kt:11)\n\tat kotlin.test.Asserter$DefaultImpls.assertNotSame(Assertions.kt:272)\n\tat kotlin.test.DefaultAsserter.assertNotSame(DefaultAsserter.kt:11)\n\tat kotlin.test.AssertionsKt__AssertionsKt.assertNotSame(Assertions.kt:72)\n\tat kotlin.test.AssertionsKt.assertNotSame(Unknown Source)\n\tat io.tpd.springbootcucumber.sar.SarStepdefs$4.accept(BasicStepdefs.kt:61)\n",
+                  "status": "failed"
+                },
+                "match": {
+                  "location": "io.tpd.springbootcucumber.sar.SarStepdefs.\u003cinit\u003e(BasicStepdefs.kt:60)"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "param1",
+                  "param2",
+                  "param3",
+                  "param4",
+                  "param5",
+                  "result",
+                  "winner",
+                  "winPoint"
+                ]
+              },
+              {
+                "cells": [
+                  "param1_str",
+                  "param2_str",
+                  "param3_str",
+                  "param4_str",
+                  "param5_str",
+                  "result_str",
+                  "winner_str",
+                  "winPoint_str"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "ScoreResult",
+    "description": "",
+    "id": "scoreresult",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/sar/sarWinner.feature",
+    "tags": []
+  }
+]
